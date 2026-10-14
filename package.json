@@ -17,7 +17,9 @@
     "mysql2": "^3.24.5",
     "nodemon": "^3.1.14"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Guiboom/api-imc-desi.git"
