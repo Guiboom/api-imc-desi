@@ -1,5 +1,6 @@
 const express = require('express');
 const db = require('./db');
+const calcularIMC = require('./imc')
 const app = express()
 const calcularIMC = require('./imc')
 const port = 3000

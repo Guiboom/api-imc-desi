@@ -4,7 +4,7 @@
   "description": "Este guia prático e teórico consolida o desenvolvimento completo de uma **API RESTful Backend com CRUD total** (Create, Read, Update, Delete) em **Node.js**, **Express** e **MySQL**, com foco na arquitetura do projeto de gestão nutricional (`Nutri_DB`).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "nodemon index.js"
   },
   "keywords": [],
@@ -26,7 +26,18 @@
   "homepage": "https://github.com/danielbaumannbr/api-imc-desi#readme",
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
-  
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guiboom/api-imc-desi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Guiboom/api-imc-desi/issues"
+  },
+  "homepage": "https://github.com/Guiboom/api-imc-desi#readme"
+
 }
 
